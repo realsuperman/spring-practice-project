@@ -25,4 +25,9 @@ public class PictureController {
     public List<Picture> findPicture(){
         return pictureService.findPicture();
     }
+
+    @GetMapping("health")
+    public String healthCheck() {
+        return "Success Health Check";
+    }
 }
