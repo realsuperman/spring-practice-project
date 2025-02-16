@@ -20,7 +20,7 @@ public class WebSecurityConfig {
 
     /* 권한 제외 대상 */
     private static final String[] permitAllUrl = new String[]{
-       "/upload","/find"
+       "/upload","/find","/health"
     };
     private final WebConfig webConfig;
 
